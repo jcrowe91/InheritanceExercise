@@ -6,6 +6,22 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            Bird cardinal = new Bird();
+            cardinal.CanSwim = false;
+            cardinal.Name = "Cardinal";
+            cardinal.Fur = false;
+            cardinal.Colors = "Red";
+            cardinal.NumOfLegs = 2;
+            cardinal.Tail = true;
+
+            Reptile alligator = new Reptile();
+            alligator.Fur = false;
+            alligator.CanSwim = true;
+            alligator.Name = "Alligator";
+            alligator.TeethOrFangs = "Teeth";
+            alligator.Tail = true;
+            alligator.NumOfLegs = 4;
+
             // TODO Be sure to follow best practice when creating your classes
 
             // Create a class Animal
@@ -34,6 +50,8 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+
+
         }
     }
 }
